@@ -12,7 +12,7 @@ import numpy as np
 from struct import unpack
 import pylab
 
-scope = visa.instrument('USB0::0x0699::0x0401::No_Serial::INSTR')
+scope = visa.instrument('USB0::0x0699::0x0369::C101084')
 
 
 scope.write('DATA:SOU CH1')

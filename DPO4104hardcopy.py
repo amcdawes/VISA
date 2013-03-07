@@ -6,7 +6,7 @@
 #-------------------------------------------------------------------------------
 import visa
 
-scope = visa.instrument('USB0::0x0699::0x0401::No_Serial::INSTR')
+scope = visa.instrument('USB0::0x0699::0x0401::C012265')
 print scope.ask('*IDN?')
 
 scope.write('SAVE:IMAG:FILEF PNG')
